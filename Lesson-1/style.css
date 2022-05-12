@@ -8,6 +8,18 @@ body {
     color: #1F3F68;
 }
 
+.class-p-basement {
+    font-size: 16px;
+    line-height: 26px;
+    color: #a9b1cf;
+}
+
+.class-ul-basement {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
 .class-h1 {
     font-size: 64px;
     color: #1F3F68;
@@ -22,6 +34,12 @@ body {
 .class-h3 {
     font-size: 36px;
     text-align: center;
+}
+
+.class-h3-basement {
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
 }
 
 .class-h4 {
@@ -66,4 +84,110 @@ body {
     line-height: 26px;
     text-align: center;
     color: #1c0d66;
+}
+
+.class-ul {
+    list-style-type: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Текст слова menu*/
+.span_menu {
+    color: #614dc2;
+    text-transform: uppercase;
+}
+
+/*Настройки блоков: первый массив*/
+.top_area1 {
+    border: 5px solid rgb(223, 61, 61);
+    box-sizing: border-box;
+}
+
+.top_area2 {
+    border: 5px solid purple;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    box-sizing: border-box;
+}
+
+.menu {
+    border: 5px solid green;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+.site_header {
+    border: 5px solid rgb(120, 206, 235);
+    width: 60%;
+    box-sizing: border-box;
+    margin-left: 0px;
+    margin-right: -5px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    padding: 10px;
+}
+
+/*Настройки блоков: второй массив*/
+.info_h3 {
+    border: 5px solid purple;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.top_area3 {
+    border: 5px solid green;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.info_h4 {
+    border: 5px solid violet;
+    width: 60%;
+    box-sizing: border-box;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/*Настройки блоков: третий массив*/
+.our_finished_project {
+    border: 5px solid red;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/*Настройки блоков: третий массив*/
+.basement {
+    border: 5px solid red;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    background-color: #345b8f;
+}
+
+.basement-hr {
+    color: #5A98D0;
 }
