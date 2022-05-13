@@ -1,10 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
 body {
     font-family: 'Times New Roman', Verdana, serif;
+}
+
+.block_flex_space-around {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.none {
+    display: none;
 }
 
 .class-p {
     font-size: 16px;
     line-height: 26px;
+    color: #1F3F68;
+}
+
+.class_p_under_h1 {
+    font-size: 16px;
+    line-height: 26px;
+    width: 425px;
+    color: #1F3F68;
+}
+
+.class-p_under_make-your-business {
+    font-size: 16px;
+    line-height: 26px;
+    width: 359px;
     color: #1F3F68;
 }
 
@@ -18,16 +52,11 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: #ffffff;
-    display: inline;
-}
-
-.class-li-basement {
-    display: inline;
-    padding: 30px;
 }
 
 .class-h1 {
     font-size: 64px;
+    width: 510px;
     color: #1F3F68;
 }
 
@@ -42,6 +71,11 @@ body {
     text-align: center;
 }
 
+.what-we-do {
+    font-size: 36px;
+    padding: 10px;
+}
+
 .class-h3-basement {
     font-size: 36px;
     text-align: center;
@@ -51,6 +85,13 @@ body {
 .class-h4 {
     font-size: 20px;
     line-height: 30px;
+    color: #1F3F68;
+}
+
+.class-make-your-business {
+    font-size: 20px;
+    line-height: 30px;
+    width: 359px;
     color: #1F3F68;
 }
 
@@ -74,7 +115,7 @@ body {
 }
 
 .image-1 {
-    width: 40%;
+    width: 70%;
     height: 300px;
     background-color: #fff;
     background-size: cover;
@@ -92,13 +133,16 @@ body {
     color: #1c0d66;
 }
 
-.class-ul {
+.block_menu_w100 {
     list-style-type: none;
+    width: 100%;
 }
 
-* {
-    margin: 0;
-    padding: 0;
+.block_menu_spase-between {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 /*Текст слова menu*/
@@ -134,7 +178,7 @@ body {
 
 .site_header {
     border: 5px solid rgb(120, 206, 235);
-    width: 60%;
+    width: 540px;
     box-sizing: border-box;
     margin-left: 0px;
     margin-right: -5px;
@@ -173,6 +217,17 @@ body {
     padding: 10px;
 }
 
+.info_h4-make-your-business {
+    border: 5px solid violet;
+    width: 389px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 /*Настройки блоков: третий массив*/
 .our_finished_project {
     border: 5px solid red;
@@ -185,7 +240,7 @@ body {
 }
 
 /*Настройки блоков: третий массив*/
-.basement {
+.footer {
     border: 5px solid red;
     margin-left: 0px;
     margin-right: 0px;
@@ -235,7 +290,7 @@ body {
     box-sizing: border-box;
     margin-left: -35px;
     margin-right: -5px;
-    margin-top: 20px;
+    margin-top: 0;
     margin-bottom: 20px;
     padding: 10px;
 }
