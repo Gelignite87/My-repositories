@@ -4,48 +4,87 @@
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
 body {
-    font-family: 'Times New Roman', Verdana, serif;
-}
-
-.block_flex_space-around {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    font-family: Roboto, 'Times New Roman', Verdana, serif;
 }
 
 .none {
     display: none;
 }
 
-.class-p {
-    font-size: 16px;
-    line-height: 26px;
-    color: #1F3F68;
-}
-
-.class_p_under_h1 {
+.p001 {
+    font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     width: 425px;
+    letter-spacing: 0.05em;
     color: #1F3F68;
+    opacity: 0.6;
 }
 
-.class-p_under_make-your-business {
+.p002 {
+    font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    width: 359px;
+    width: 100%;
+    letter-spacing: 0.05em;
     color: #1F3F68;
+    opacity: 0.6;
 }
 
-.class-p-basement {
+.p003 {
+    width: 75%;
+    margin: 0 auto;
+    font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color: #a9b1cf;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    padding: 0 0 64px 0;
+}
+
+.p004 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+.p005 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+
+.p006 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    padding-bottom: 96px;
+}
+
+.hr {
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
 }
 
 .class-ul-basement {
@@ -54,10 +93,14 @@ body {
     color: #ffffff;
 }
 
-.class-h1 {
-    font-size: 64px;
+.h1001 {
     width: 510px;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
     color: #1F3F68;
+    margin-bottom: 32px;
 }
 
 .class-h2 {
@@ -66,20 +109,22 @@ body {
     text-align: center;
 }
 
-.class-h3 {
+.h3001 {
     font-size: 36px;
+    font-weight: 300;
+    line-height: 46px;
     text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
 }
 
-.what-we-do {
+.h3002 {
+    font-weight: 400;
     font-size: 36px;
-    padding: 10px;
-}
-
-.class-h3-basement {
-    font-size: 36px;
-    text-align: center;
-    color: #ffffff;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin: 91px 0 32px 0;
 }
 
 .class-h4 {
@@ -88,11 +133,14 @@ body {
     color: #1F3F68;
 }
 
-.class-make-your-business {
+.h4001 {
+    font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    width: 359px;
+    width: 100%;
+    letter-spacing: 0.05em;
     color: #1F3F68;
+    margin: 50px 0 14px 0;
 }
 
 .class-input {
@@ -114,6 +162,10 @@ body {
     text-transform: uppercase;
 }
 
+.image001 {
+    width: 100%;
+}
+
 .image-1 {
     width: 70%;
     height: 300px;
@@ -122,157 +174,161 @@ body {
     background-position: center;
 }
 
-.a-up {
-    background: #d2deeb;
-    box-shadow: 5px 20px 50px rgb(210, 130, 9);
-    border-radius: 5px;
-    font-weight: 600;
+.div_ol001 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+.span001 {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.button001 {
+    font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-    color: #1c0d66;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-flex;
+    margin: 71px auto 0;
 }
 
-.block_menu_w100 {
-    list-style-type: none;
-    width: 100%;
+.button002 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    margin: 27px 0 0 0;
+    text-decoration: none;
 }
 
-.block_menu_spase-between {
+.button003 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 15px 80px;
+    margin: 0 0 0 0;
+}
+
+/*Настройки блоков первая часть*/
+.div001 {
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    box-sizing: border-box;
+}
+
+.div002 {
+    margin: 0 115px 0 115px;
+    box-sizing: border-box;
     display: flex;
-    width: 100%;
-    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+}
+
+.div003 {
+    margin: 42px 0 0 0;
+    box-sizing: border-box;
+}
+
+.div004 {
+    padding-top: 115px;
+    flex-grow: 1;
+    background-image: url(Images/illustration.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+/*Настройки блоков вторая часть*/
+.div005 {
+    margin: 0 115px 0 115px;
+    padding-top: 64px;
+    box-sizing: border-box;
+}
+
+.div006 {
+    margin: 0 0 0 0;
+    padding-top: 64px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.div007 {
+    width: 359px;
+    box-sizing: border-box;
+    margin: 0 0 0 0;
+    padding: 44px 32px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div008 {
+    margin: 0 115px 0 115px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.div009 {
+    margin: 0 115px 0 115px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
 }
 
-/*Текст слова menu*/
-.span_menu {
-    color: #614dc2;
-    text-transform: uppercase;
+.div010 {
+    margin-top: 32px;
+    position: relative;
 }
 
-/*Настройки блоков: первый массив*/
-.top_area1 {
-    border: 5px solid rgb(223, 61, 61);
+/*Настройки блоков третья часть*/
+.div011 {
+    margin: 82px 0 0 0;
+    box-sizing: border-box;
+    background-color: #316099;
+}
+
+.div012 {
+    margin: 0 115px 0 115px;
     box-sizing: border-box;
 }
 
-.top_area2 {
-    border: 5px solid purple;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: -5px;
-    margin-bottom: -5px;
+.div013 {
+    margin: 91px 0 32px 0;
     box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
-.menu {
-    border: 5px solid green;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 20px;
-    margin-bottom: 0px;
+.div014 {
     box-sizing: border-box;
-    padding-left: 30px;
-}
-
-.site_header {
-    border: 5px solid rgb(120, 206, 235);
-    width: 540px;
-    box-sizing: border-box;
-    margin-left: 0px;
-    margin-right: -5px;
-    margin-top: 30px;
-    margin-bottom: 80px;
-    padding: 10px;
-}
-
-/*Настройки блоков: второй массив*/
-.info_h3 {
-    border: 5px solid purple;
-    margin-left: 55px;
-    margin-right: 55px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-}
-
-.top_area3 {
-    border: 5px solid green;
-    margin-left: -5px;
-    margin-right: -5px;
-    margin-top: -5px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-}
-
-.info_h4 {
-    border: 5px solid violet;
-    width: 60%;
-    box-sizing: border-box;
-    margin-left: -5px;
-    margin-right: -5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-}
-
-.info_h4-make-your-business {
-    border: 5px solid violet;
-    width: 389px;
-    box-sizing: border-box;
-    padding: 10px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-/*Настройки блоков: третий массив*/
-.our_finished_project {
-    border: 5px solid red;
-    margin-left: 55px;
-    margin-right: 55px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-    padding: 10px;
-}
-
-/*Настройки блоков: третий массив*/
-.footer {
-    border: 5px solid red;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    box-sizing: border-box;
-    background-color: #345b8f;
-}
-
-.basement-hr {
-    color: #5A98D0;
-}
-
-/*Настройки блоков: четвертый массив*/
-.basement2 {
-    border: 5px solid white;
-    margin-left: 55px;
-    margin-right: 55px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-}
-
-.basement-text {
-    border: 5px solid white;
-    width: 60%;
-    box-sizing: border-box;
-    margin-left: -5px;
-    margin-right: 0px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    padding: 10px;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .basement-links {
