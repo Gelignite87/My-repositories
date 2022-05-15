@@ -79,12 +79,23 @@ body {
     letter-spacing: 0.05em;
     color: #FFFFFF;
     opacity: 0.6;
-    padding-bottom: 96px;
+    padding-bottom: 32px;
+}
+
+.p007 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+    padding-bottom: 64px;
 }
 
 .hr {
     opacity: 0.4;
     border: 1px solid #FFFFFF;
+    margin: 92px 0 0 0;
 }
 
 .class-ul-basement {
@@ -180,6 +191,24 @@ body {
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
+}
+
+.div_ol002 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.li001 {
+    width: 340px;
+    height: 30px;
 }
 
 .span001 {
@@ -316,7 +345,7 @@ body {
 }
 
 .div013 {
-    margin: 91px 0 32px 0;
+    margin: 91px 0 0 0;
     box-sizing: border-box;
     display: flex;
     flex-flow: row wrap;
@@ -331,22 +360,12 @@ body {
     justify-content: center;
 }
 
-.basement-links {
-    border: 5px solid white;
-    margin-left: 55px;
-    margin-right: 55px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+.div015 {
+    margin: 64px 0 0 0;
     box-sizing: border-box;
-    padding-left: 30px;
 }
 
-.all_rights_reserved {
-    border: 5px solid white;
+.div016 {
+    margin: 64px 0 0 0;
     box-sizing: border-box;
-    margin-left: -35px;
-    margin-right: -5px;
-    margin-top: 0;
-    margin-bottom: 20px;
-    padding: 10px;
 }
