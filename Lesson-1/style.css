@@ -4,7 +4,6 @@
 }
 
 .container {
-    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -20,18 +19,18 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    width: 425px;
+    max-width: 425px;
     letter-spacing: 0.05em;
     color: #1F3F68;
     opacity: 0.6;
 }
 
 .p002 {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     line-height: 26px;
     width: 100%;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
     color: #1F3F68;
     opacity: 0.6;
 }
@@ -92,6 +91,15 @@ body {
     padding-bottom: 64px;
 }
 
+.p008 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+}
+
 .hr {
     opacity: 0.4;
     border: 1px solid #FFFFFF;
@@ -105,7 +113,7 @@ body {
 }
 
 .h1001 {
-    width: 510px;
+    max-width: 510px;
     font-weight: 300;
     font-size: 64px;
     line-height: 74px;
@@ -135,7 +143,7 @@ body {
     line-height: 46px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
-    margin: 91px 0 32px 0;
+    margin: 0 32px 32px 0;
 }
 
 .class-h4 {
@@ -155,14 +163,29 @@ body {
 }
 
 .h4002 {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
     color: #1F3F68;
+    padding: 40px 0 24px 0;
 }
 
-.class-input {
+.class-input001 {
+    width: 100%;
+    height: 72px;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+    padding-left: 42px;
+    margin: 0 0 32px 0;
+}
+
+.class-input002 {
+    width: 100%;
+    height: 144px;
     border: 1px solid #356EAD;
     box-sizing: border-box;
     border-radius: 10px;
@@ -171,11 +194,15 @@ body {
 
 .class-button {
     background: #5A98D0;
+    border: #5A98D0;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
+    padding: 10px 43% 10px;
+    margin: 72px 0 56px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
+    letter-spacing: 0.04em;
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -186,7 +213,7 @@ body {
 }
 
 .image002 {
-    height: 300px;
+    max-height: 150px;
     background-color: #fff;
     background-size: cover;
     background-position: center;
@@ -216,8 +243,25 @@ body {
 }
 
 .li001 {
-    width: 340px;
-    height: 30px;
+    width: 250px;
+}
+
+.li002 {
+    width: 250px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.a001 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    text-decoration: none;
 }
 
 .span001 {
@@ -267,6 +311,17 @@ body {
 }
 
 /*Настройки блоков первая часть*/
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    flex-grow: 1;
+}
+
 .div001 {
     height: 768px;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
@@ -291,7 +346,8 @@ body {
     flex-grow: 1;
     background-image: url(Images/illustration.png);
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: right bottom 50px;
+    background-size: 50%;
 }
 
 /*Настройки блоков вторая часть*/
@@ -311,10 +367,10 @@ body {
 }
 
 .div007 {
-    width: 359px;
+    width: 540px;
     box-sizing: border-box;
     margin: 0 0 0 0;
-    padding: 44px 32px;
+    padding: 0 32px;
     background: #FFFFFF;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
@@ -336,19 +392,29 @@ body {
     justify-content: space-between;
 }
 
+.div0101 {
+    margin-top: 32px;
+    position: relative;
+}
+
 .div010 {
     margin-top: 32px;
     position: relative;
 }
 
 /*Настройки блоков третья часть*/
-.div011 {
+.footer {
     margin: 82px 0 0 0;
     box-sizing: border-box;
     background-color: #316099;
 }
 
 .div012 {
+    margin: 0 115px 0 115px;
+    box-sizing: border-box;
+}
+
+.div0121 {
     margin: 0 115px 0 115px;
     box-sizing: border-box;
 }
@@ -369,6 +435,14 @@ body {
     justify-content: center;
 }
 
+.div0141 {
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .div015 {
     margin: 64px 0 0 0;
     box-sizing: border-box;
@@ -380,8 +454,204 @@ body {
 }
 
 .div017 {
-    width: 100%;
-    padding-top: 64px;
-    margin: 64px auto 0;
+    padding: 64px 45px 0 0;
+    background-size: cover;
+    margin: 64px 0 0 0;
     box-sizing: border-box;
+    background-image: url(Images/Mask\ Group\ 4.png);
+}
+
+.div018 {
+    margin: 0 115px 0 115px;
+}
+
+.div019 {
+    max-width: 340px;
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+
+    .div002 {
+        margin: 0 32px 0 32px;
+    }
+
+    .div005 {
+        margin: 0 32px 0 32px;
+    }
+
+    .div008 {
+        margin: 0 32px 0 32px;
+    }
+
+    .div009 {
+        margin: 0 32px 0 32px;
+        flex-flow: row nowrap;
+    }
+
+    .div0101 {
+        margin: 32px 32px 0 0;
+        position: relative;
+    }
+
+    .div012 {
+        margin: 0 32px 0 32px;
+    }
+
+    .div0121 {
+        margin: 0 32px 0 32px;
+    }
+
+    .div017 {
+        padding: 64px 45px 0 0;
+        background-size: cover;
+        margin: 64px 0 0 0;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-image: url(Images/Mask\ Group\ 4.png);
+    }
+
+    .div018 {
+        margin: 0 32px 0 32px;
+    }
+
+    .h3002 {
+        margin: 0 0 32px 0;
+    }
+
+    .div007 {
+        margin-bottom: 32px;
+    }
+
+    .button003 {
+        padding: 15px 40px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .h1001 {
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #1F3F68;
+    }
+
+    .h3001 {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .h3002 {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        margin: 0 0 32px 0;
+
+    }
+
+    .p001 {
+        text-align: center;
+    }
+
+    .p004 {
+        font-size: 16px;
+        line-height: 19px;
+        text-align: right;
+        color: #FFFFFF;
+        top: 0;
+        right: 0;
+    }
+
+    .p005 {
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        top: 0;
+        left: 0;
+    }
+
+    .p006 {
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .hr {
+        margin: 42px 0 0 0;
+    }
+
+    .div001 {
+        height: 630px;
+    }
+
+    .div002 {
+        margin: 0 32px 0 32px;
+    }
+
+    .div004 {
+        padding-top: 36px;
+        background: none;
+    }
+
+    .div005 {
+        margin: 0 32px 0 32px;
+    }
+
+    .div008 {
+        margin: 0 32px 0 32px;
+    }
+
+    .div009 {
+        margin: 0 32px 0 32px;
+    }
+
+    .div012 {
+        margin: 0 32px 0 32px;
+    }
+
+    .div0121 {
+        margin: 0 0 0 0;
+    }
+
+    .div013 {
+        margin: 18px 0 0 0;
+    }
+
+    .div017 {
+        padding: 64px 45px 0 0;
+        background-size: cover;
+        margin: 64px 0 0 0;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-image: url(Images/Mask\ Group\ 4.png);
+    }
+
+    .div018 {
+        margin: 32px 0 0 0;
+    }
+
+    .div019 {
+        width: 100%;
+    }
+
+    .div007 {
+        margin-bottom: 32px;
+    }
+
+    .footer {
+        margin: 32px 0 0 0;
+    }
+
+    .class-button {
+        padding: 10px 34% 10px;
+    }
+
+    .button003 {
+        padding: 10px 15px;
+    }
 }
