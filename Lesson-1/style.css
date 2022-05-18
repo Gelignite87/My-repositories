@@ -454,7 +454,7 @@ body {
 }
 
 .div017 {
-    padding: 64px 45px 0 0;
+    padding: 64px 0 0 0;
     background-size: cover;
     margin: 64px 0 0 0;
     box-sizing: border-box;
@@ -469,7 +469,7 @@ body {
     max-width: 340px;
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media (min-width: 376px) and (max-width: 768px) {
 
     .div002 {
         margin: 0 32px 0 32px;
@@ -510,7 +510,7 @@ body {
     }
 
     .div017 {
-        padding: 64px 45px 0 0;
+        padding: 64px 0 0 0;
         background-size: cover;
         margin: 64px 0 0 0;
         box-sizing: border-box;
@@ -535,7 +535,7 @@ body {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
 
     .h1001 {
         font-weight: 300;
@@ -594,7 +594,7 @@ body {
     }
 
     .div001 {
-        height: 630px;
+        height: 530px;
     }
 
     .div002 {
@@ -612,6 +612,7 @@ body {
 
     .div006 {
         flex-flow: row wrap;
+        padding-top: 0;
     }
 
     .div008 {
@@ -639,7 +640,7 @@ body {
     }
 
     .div017 {
-        padding: 64px 45px 0 0;
+        padding: 64px 0 0 0;
         background-size: cover;
         margin: 64px 0 0 0;
         box-sizing: border-box;
@@ -653,6 +654,7 @@ body {
 
     .div019 {
         width: 100%;
+        padding: 32px;
     }
 
     .div007 {
@@ -665,6 +667,11 @@ body {
 
     .class-button {
         padding: 10px 34% 10px;
+    }
+
+    .button001 {
+        max-width: 112px;
+        display: block;
     }
 
     .button003 {
