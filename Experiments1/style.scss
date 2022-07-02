@@ -267,9 +267,7 @@
  }
 
  .block_product:nth-child(3n+2) {
-     position: relative;
-     z-index: 1;
-     margin: 15px auto 15px 3.3vw;
+     margin: 15px auto 15px 4.6%;
  }
 
  .block_text_product {
@@ -278,6 +276,7 @@
      min-height: 160px;
      justify-content: space-around;
      padding: 18px;
+     margin-top: auto;
  }
 
  .block_text_product1 {
